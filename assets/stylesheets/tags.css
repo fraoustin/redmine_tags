@@ -9,13 +9,14 @@
 .tag{
     border-style: solid;
     text-align: center;
-    padding-top: 2px !important;
+    padding-top: Opx !important;
     padding-bottom: 2px !important;
     padding-left: 5px !important;
     padding-right: 5px !important;
     border-radius: 5px;
     margin-left: 2px;
     margin-right: 2px;
+    border-width: 1px;
 }
 
 .tag.green {

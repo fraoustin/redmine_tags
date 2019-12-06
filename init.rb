@@ -48,7 +48,7 @@ Redmine::Plugin.register :redmine_tags do
   author 'Frederic AOUSTIN'
   description 'add tag in your issue'
   url "http://www.github.com/fraoustin/redmine_tags" if respond_to?(:url)
-  version '0.1.0'
+  version '0.1.1'
   requires_redmine :version_or_higher => '2.3.0'
   RedCloth3::ALLOWED_TAGS << "div"
 end
