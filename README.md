@@ -18,7 +18,7 @@ with a Dockerfile
 
 ## Usage
 
-which can be used :
+which can be used into description of issue:
 
 ```
    {{tags(tag1 tag2)}}
