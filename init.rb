@@ -44,11 +44,11 @@ end
 
 require File.expand_path('../../../lib/redmine/wiki_formatting/textile/redcloth3', __FILE__)
 Redmine::Plugin.register :redmine_tags do
-  name 'Redmine Assign To Me plugin'
+  name 'Redmine Tags'
   author 'Frederic AOUSTIN'
   description 'add tag in your issue'
   url "http://www.github.com/fraoustin/redmine_tags" if respond_to?(:url)
-  version '0.1.1'
+  version '0.1.2'
   requires_redmine :version_or_higher => '2.3.0'
   RedCloth3::ALLOWED_TAGS << "div"
 end
