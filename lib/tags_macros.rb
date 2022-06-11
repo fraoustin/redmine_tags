@@ -1,4 +1,4 @@
-module TagsMacro
+module TagsMacros
     Redmine::WikiFormatting::Macros.register do
       desc "Adds a tags to the issue page:\n\n" +
         "<pre>\n" +
